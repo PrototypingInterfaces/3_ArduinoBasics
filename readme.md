@@ -1,2 +1,1 @@
-# Developed and teseted with vvvv_45beta29.2
-@@
+Developed and tested with vvvv_45beta29.2
