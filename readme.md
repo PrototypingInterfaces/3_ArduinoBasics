@@ -1,1 +1,2 @@
-Tested with vvvv_45beta31.2
+Developed with:
+* vvvv_45beta31.2
