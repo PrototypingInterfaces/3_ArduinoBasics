@@ -847,7 +847,7 @@
    <NODE nodename="IOBox (String)" componentmode="InABox" id="100041" systemname="IOBox (String)">
    <BOUNDS type="Node" left="7440" top="9450" width="3030" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="7440" top="9450" width="1650" height="510">
+   <BOUNDS type="Box" left="7440" top="9450" width="1290" height="480">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" values="|2. Select ComPort.|">
    </PIN>
@@ -1011,7 +1011,7 @@
    <NODE nodename="IOBox (String)" componentmode="InABox" id="100052" systemname="IOBox (String)">
    <BOUNDS type="Node" left="7440" top="8295" width="3030" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="7440" top="8295" width="1650" height="510">
+   <BOUNDS type="Box" left="7440" top="8295" width="1290" height="480">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" values="|1. Update Portlist.|">
    </PIN>
