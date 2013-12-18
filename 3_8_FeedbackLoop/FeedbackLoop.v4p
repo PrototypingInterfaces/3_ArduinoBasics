@@ -859,9 +859,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="100042" systemname="IOBox (String)">
-   <BOUNDS type="Node" left="240" top="3930" width="3570" height="480">
+   <BOUNDS type="Node" left="240" top="4680" width="3570" height="480">
    </BOUNDS>
-   <BOUNDS type="Box" left="240" top="3930" width="1980" height="735">
+   <BOUNDS type="Box" left="240" top="4680" width="1980" height="735">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" values="|Attention!&cr;&lf;Disable Arduino node before you save the patch!|">
    </PIN>
