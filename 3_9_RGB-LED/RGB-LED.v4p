@@ -17,6 +17,8 @@
    </PIN>
    <PIN pinname="Report Analog Pins" slicecount="1" visible="1" values="1">
    </PIN>
+   <PIN pinname="Update Port List" visible="1">
+   </PIN>
    </NODE>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="60" systemname="IOBox (Value Advanced)">
    <BOUNDS type="Node" left="4830" top="9915" width="0" height="0">
@@ -1087,9 +1089,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="100046" systemname="IOBox (Value Advanced)">
-   <BOUNDS type="Box" left="5325" top="8895" width="480" height="480">
+   <BOUNDS type="Box" left="6180" top="8745" width="480" height="480">
    </BOUNDS>
-   <BOUNDS type="Node" left="5325" top="8895" width="0" height="0">
+   <BOUNDS type="Node" left="6180" top="8745" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" values="0">
    </PIN>
@@ -1103,8 +1105,12 @@
    </PIN>
    <PIN pinname="Descriptive Name" slicecount="1" values="|Update Port List|">
    </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
    </NODE>
    <LINK srcnodeid="100046" srcpinname="Y Output Value" dstnodeid="61" dstpinname="Update Port List">
+   <LINKPOINT x="5340" y="9195">
+   </LINKPOINT>
    </LINK>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="100047" systemname="IOBox (String)">
    <BOUNDS type="Node" left="6720" top="9030" width="1500" height="270">
