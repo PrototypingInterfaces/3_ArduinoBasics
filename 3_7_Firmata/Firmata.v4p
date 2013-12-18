@@ -9,6 +9,8 @@
    </PIN>
    <PIN pinname="Pin Modes" slicecount="20" values="OUTPUT,OUTPUT,OUTPUT,PWM,OUTPUT,OUTPUT,OUTPUT,OUTPUT,OUTPUT,OUTPUT,OUTPUT,OUTPUT,OUTPUT,OUTPUT,ANALOG,ANALOG,ANALOG,ANALOG,ANALOG,ANALOG">
    </PIN>
+   <PIN pinname="Update Port List" visible="1" slicecount="1" values="0">
+   </PIN>
    </NODE>
    <NODE nodename="IOBox (Enumerations)" componentmode="InABox" id="53" systemname="IOBox (Enumerations)">
    <BOUNDS type="Node" left="7110" top="7425" width="0" height="0">
@@ -707,9 +709,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="100039" systemname="IOBox (String)">
-   <BOUNDS type="Node" left="8070" top="7425" width="3405" height="270">
+   <BOUNDS type="Node" left="8070" top="7335" width="3405" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="8070" top="7425" width="1920" height="750">
+   <BOUNDS type="Box" left="8070" top="7335" width="1920" height="750">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" values="|2. Select your ComPort and enable the Arduino node.|">
    </PIN>
@@ -853,9 +855,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="100049" systemname="IOBox (Value Advanced)">
-   <BOUNDS type="Box" left="6375" top="7935" width="480" height="480">
+   <BOUNDS type="Box" left="7035" top="6450" width="480" height="480">
    </BOUNDS>
-   <BOUNDS type="Node" left="6375" top="7935" width="0" height="0">
+   <BOUNDS type="Node" left="7035" top="6450" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" values="0">
    </PIN>
@@ -871,9 +873,9 @@
    </PIN>
    <PIN pinname="X Input Value" slicecount="1" values="0">
    </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
    </NODE>
-   <LINK srcnodeid="100049" srcpinname="Y Output Value" dstnodeid="52" dstpinname="Update Port List">
-   </LINK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="100050" systemname="IOBox (Value Advanced)">
    <BOUNDS type="Box" left="4155" top="8790" width="480" height="480">
    </BOUNDS>
@@ -895,9 +897,9 @@
    <LINK srcnodeid="100050" srcpinname="Y Output Value" dstnodeid="52" dstpinname="Report Digital Pins">
    </LINK>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="100051" systemname="IOBox (String)">
-   <BOUNDS type="Node" left="7590" top="6705" width="3405" height="270">
+   <BOUNDS type="Node" left="7590" top="6420" width="3405" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="7590" top="6705" width="1890" height="555">
+   <BOUNDS type="Box" left="7590" top="6420" width="1890" height="555">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" values="|1. Update the List of available Ports.|">
    </PIN>
@@ -958,4 +960,8 @@
    <PIN pinname="ID" pintype="Output" visible="-1">
    </PIN>
    </NODE>
+   <LINK srcnodeid="100049" srcpinname="Y Output Value" dstnodeid="52" dstpinname="Update Port List">
+   <LINKPOINT x="6411" y="6899">
+   </LINKPOINT>
+   </LINK>
    </PATCH>
